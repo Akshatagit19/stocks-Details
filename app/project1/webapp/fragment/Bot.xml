@@ -1,0 +1,19 @@
+<core:FragmentDefinition id="fragment23" xmlns="sap.m" xmlns:core="sap.ui.core">
+    <Popover id="pop" title="Welcome to UI5 Chat Bot" class="sapUiContentPadding" resizable="true" verticalScrolling="true" contentHeight="200px"
+        placement="Top" initialFocus="query">
+        <footer>
+            <Toolbar>
+                <ToolbarSpacer/>
+                <Input submit="ask" id="query" type="text" width="200px" value="" class="sapUiSmallMargin"/>
+                <Button text="Clear" press="onClear"/>
+            </Toolbar>
+        </footer>
+        <VBox id="chat">
+            <FlexBox class="sapUiSmallMarginTop" alignItems="Start" justifyContent="Start">
+                <items>
+                    <Text class="chat1" text="hello Welcome to LSEG, I am here to help you,\n Please input the stock \nLondon Stock Exchange\nNew York Stock Exchange\nAdvanced Micro Devices, Inc."/>
+                </items>
+            </FlexBox>
+        </VBox>
+    </Popover>
+</core:FragmentDefinition>
